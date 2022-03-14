@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`-------- testing profile reducer SET_USER_STATUS -------- status changed 1`] = `"test test changed status"`;

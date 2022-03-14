@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`--------- friends reducer set users ---------- SET_USERS 1`] = `
+Array [
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "First",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Second",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Third",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Four",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Five",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Ivan",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+  Object {
+    "avatar": "avatar photo",
+    "followed": false,
+    "name": "Seven",
+    "secondName": undefined,
+    "userId": undefined,
+    "userSatus": undefined,
+  },
+]
+`;

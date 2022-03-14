@@ -1,0 +1,138 @@
+nav {
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  top: 130px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: 600;
+  align-items: center;
+  padding: 20px;
+  float: right;
+  box-shadow: 0px 5px 8px 1px #a3a3a3;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.menu {
+  list-style: none;
+}
+.menu li {
+  margin: 25px 0;
+}
+
+.menu li:last-child {
+  margin-top: 100px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+.nav_main::after {
+  content: "Main";
+}
+.nav_profile::after {
+  content: "Profile";
+}
+.nav_friends::after {
+  content: "Friends";
+}
+.nav_messages::after {
+  content: "Messages";
+}
+.nav_settings::after {
+  content: "Settings";
+}
+.navigation:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff45ee;
+  text-decoration-thickness: 5px;
+}
+.active {
+  color: goldenrod;
+  text-decoration-color: goldenrod;
+  text-decoration: underline;
+}
+
+i {
+  margin-right: 15px;
+}
+.fa-cog {
+  transition: 1.5s all linear;
+}
+
+.nav_settings:hover .fa-cog {
+  animation: circle 0.7s ease-in-out;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(40deg);
+  }
+  30% {
+    transform: rotate(60deg);
+  }
+  40% {
+    transform: rotate(80deg);
+  }
+  50% {
+    transform: rotate(100deg);
+  }
+  60% {
+    transform: rotate(120deg);
+  }
+  70% {
+    transform: rotate(140deg);
+  }
+  80% {
+    transform: rotate(160deg);
+  }
+  90% {
+    transform: rotate(170deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    width: 83%;
+    font-size: 14px;
+    padding: 5px;
+    display: block;
+    top: 80px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .menu li {
+    margin: 15px 0;
+  }
+  .menu li:last-child {
+    margin-top: 15px;
+  }
+  .nav_main::after {
+    content: "";
+  }
+  .nav_profile::after {
+    content: "";
+  }
+  .nav_friends::after {
+    content: "";
+  }
+  .nav_messages::after {
+    content: "";
+  }
+  .nav_settings::after {
+    content: "";
+  }
+}

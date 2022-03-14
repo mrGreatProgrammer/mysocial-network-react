@@ -1,0 +1,23 @@
+.profile__page {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.profile__page-avatar {
+  display: flex;
+  justify-content: center;
+}
+.profile__page-avatar--img {
+  width: 500px;
+}
+.profile__page-name {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  .profile__page-avatar--img {
+    width: 300px;
+  }
+}

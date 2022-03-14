@@ -1,0 +1,146 @@
+.post {
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px #888;
+  margin: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post__info {
+  display: grid;
+  grid-template-columns: 0.3fr 2.7fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 15px 15px;
+}
+.profile__avatar {
+  align-self: center;
+  justify-self: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #aaa;
+}
+.profile__avatar--img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile_info-nickname {
+  align-self: center;
+  justify-self: start;
+  margin: 0 35px;
+  font-weight: 600;
+  font-size: 28px;
+  background: #a3a3a3;
+  min-width: 250px;
+  height: 25px;
+}
+.user__name{
+  display: inline-block;
+}
+.user__second_name{
+  display: inline-block;
+  margin-left: 10px;
+}
+.post__info--date {
+  font-family: "Montserrat", sans-serif;
+  align-self: center;
+  justify-self: end;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+
+.post__content {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+.post_content--title {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.post__content--txt {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+/* POST CONTENT IMG */
+.post__content--img {
+  /* height: 100px; */
+  background: #545454;
+  border: 3px dotted #595959;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.post__content_photo--img{
+  height: 430px;
+  max-width: 980px;
+}
+
+.post__btns {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  padding-bottom: 5px;
+}
+.post__btn--like {
+  border-radius: 7px;
+  border: none;
+  min-width: 80px;
+  height: 45px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.post__btn--like i {
+  font-size: 26px;
+}
+.post__btn--like i.fas {
+  color: #ea3a3a;
+}
+
+.post__btn--like:hover i {
+  animation: pulse 0.7s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.post__btn--like span {
+  font-size: 18px;
+}
+
+@keyframes pulse {
+  0% {
+    font-size: 26px;
+  }
+  100% {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .post {
+    margin: 15px;
+    padding: 10px;
+  }
+  .profile_info-nickname {
+    align-self: center;
+    justify-self: start;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 24px;
+    min-width: 80px;
+    height: 15px;
+  }
+}

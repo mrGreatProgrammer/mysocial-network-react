@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-inner-spin-button {
+  background: aqua;
+}
+::-webkit-outer-spin-button {
+  background: aqua;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(25, 25, 25, 0.5);
+  border-radius: 5px;
+  filter: blur(25px);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input {
+  outline: none;
+  padding-left: 15px;
+}
+
+textarea {
+  outline: none;
+  padding: 15px;
+}
+
+button:active {
+  box-shadow: inset 1px 0px 5px 0px #000;
+}
+
+nav {
+  width: 15%;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  width: 100%;
+}
+.space_wrapper {
+  width: 18%;
+  height: 300px;
+}
+.nav_and_main {
+  padding-top: 130px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 500px) {
+  .space_wrapper {
+    display: none;
   }
 }

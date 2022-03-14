@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`------- testing posts reducer GET_ALL_POSTS ----- values should be correct 1`] = `
+Array [
+  Object {
+    "created": "recently",
+    "id": 1,
+    "liked": false,
+    "likes": 2,
+    "photo": "photo",
+    "textContent": undefined,
+    "title": "first post",
+    "userId": undefined,
+  },
+  Object {
+    "created": "recently",
+    "id": 2,
+    "liked": false,
+    "likes": 2,
+    "photo": "photo",
+    "textContent": undefined,
+    "title": "first post",
+    "userId": undefined,
+  },
+  Object {
+    "created": "recently",
+    "id": 3,
+    "liked": false,
+    "likes": 2,
+    "photo": "photo",
+    "textContent": undefined,
+    "title": "third post",
+    "userId": undefined,
+  },
+]
+`;

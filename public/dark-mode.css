@@ -1,0 +1,70 @@
+/* HEADER */
+header {
+  /* From https://css.glass */
+  background: rgba(20, 20, 20, 0.71);
+  /* border-radius: 16px; */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(2, 2, 2, 0.41);
+  box-shadow: 0 3px 15px 0px #353535;
+}
+
+.logo {
+  color: #eee;
+}
+.logo a {
+  color: #eee;
+}
+.golden {
+  color: gold;
+}
+
+/* NAV */
+nav {
+  box-shadow: 0px 5px 8px 1px #ccc;
+  background: #484848;
+}
+.navigation {
+  color: #f3f3f3;
+}
+.navigation:hover {
+  text-decoration-color: #ff45ee;
+}
+.active {
+  color: goldenrod;
+  text-decoration-color: goldenrod;
+}
+
+.nav_and_main {
+  background: #383838;
+}
+
+/* MAIN */
+.home__page {
+  background: #383838;
+}
+
+/* POSTS */
+.post {
+  background: #282828;
+  color: #f3f3f3;
+}
+
+/* PROFILE */
+.profile__page {
+    
+}
+
+.profile__page-avatar {
+  display: flex;
+  justify-content: center;
+}
+.profile__page-avatar--img {
+  width: 500px;
+}
+.profile__page-name {
+  font-size: 42px;
+  font-weight: 700;
+  color: #f3f3f3;
+}

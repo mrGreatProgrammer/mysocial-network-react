@@ -1,0 +1,48 @@
+/* HEADER */
+header {
+  /* From https://css.glass */
+  background: rgba(182, 182, 182, 0.47);
+  /* border-radius: 16px; */
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(182, 182, 182, 0.62);
+  box-shadow: 0 3px 15px 0px #353535;
+}
+
+.logo {
+  color: #eee;
+}
+.logo a {
+  color: #eee;
+}
+.golden {
+  color: gold;
+}
+
+/* NAV */
+nav {
+  box-shadow: 0px 5px 8px 1px #a3a3a3;
+  background: #e8e8e8;
+}
+
+.navigation:hover {
+  text-decoration-color: #ff45ee;
+}
+.active {
+  color: goldenrod;
+  text-decoration-color: goldenrod;
+}
+
+.nav_and_main {
+  background: #e8e8e8;
+}
+
+/* MAIN */
+.home__page {
+  background: #e8e8e8;
+}
+
+/* POSTS */
+.post {
+    background: #fff;
+}

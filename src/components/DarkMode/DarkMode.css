@@ -1,0 +1,16 @@
+.dark__mode {
+}
+.dark__mode--switcher {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 38px;
+  background: none;
+  transition: .7s ease;
+}
+.fa-sun{
+    color: #252525;
+}
+.fa-moon{
+    color: #fff;
+}

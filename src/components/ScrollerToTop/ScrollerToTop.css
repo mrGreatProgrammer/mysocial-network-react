@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#to-top-up {
+  display: flex;
+  font-size: 55px;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #10c9c3;
+  right: 40px;
+  z-index: 110;
+  position: fixed;
+  bottom: 40px;
+  transition: 0.4s;
+}
+
+#to-top-up:hover {
+  cursor: pointer;
+  color: #10a9c4;
+}
+
+.isShowBtn {
+  opacity: 1;
+}
+
+.isShowBtn_hide {
+  opacity: 0;
+}

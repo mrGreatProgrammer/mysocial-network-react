@@ -1,0 +1,20 @@
+.pagination--container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 10px;
+}
+
+.pagination--btn {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 2px 5px 0px #353535;
+}
+
+.clicked {
+  box-shadow: inset 2px 1px 6px 0px #252525;
+}

@@ -1,0 +1,72 @@
+.chats__container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgba(200, 200, 200, 0.5);
+  margin-left: 10px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  box-shadow: 0px 10px 5px 1px #585858;
+}
+
+.chats {
+  width: 10%;
+}
+
+.messages {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../imgs/1617278696_8-p-fon-dlya-chata-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.messages__holder {
+  padding: 30px;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+/* MESSAGE ADDING */
+.message__add {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.message--inp {
+  width: 90%;
+  height: 150px;
+  border: none;
+}
+
+.send__msg--btn {
+  padding: 10px 5px;
+  background: #4444cc;
+  border: none;
+  width: 10%;
+  font-weight: 600;
+  color: #eee;
+  height: 45%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .chats__container {
+    height: 100vh;
+  }
+  .message--inp {
+    width: 85%;
+  }
+  .send__msg--btn {
+    width: 15%;
+  }
+}
